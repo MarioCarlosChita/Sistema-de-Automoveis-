@@ -1,0 +1,25 @@
+*{
+   margin:0px;
+   outline:none;
+   padding: 0px;
+}
+.view{
+       width: 800px;
+       margin:0 auto;
+       margin-top:120px;
+}
+.page {
+    padding-bottom: 10px;
+}
+.page h4 {
+     color: #3A57CD;
+     font-size: 23px;
+
+}
+.page > h4 > a{
+    text-decoration: none;
+    color: #3A57CD;
+}
+.descricao{
+    padding-top: 10px;
+}

@@ -1,0 +1,181 @@
+*{
+   margin: 0px;
+   padding:0px;
+   outline: none;
+}
+.container-logo >div > h3{
+    color: grey;
+}
+
+.sucess-file{
+    width: 580px;
+    height: 30px;
+    background-color:green;
+    opacity: 0.4;
+    margin-top:15px;
+    margin-bottom:30px;
+    color: white;
+    padding:10px;
+    text-align: center;
+}
+.sucess-file> p{
+      font-family:"trebuchet ms" ;
+}
+
+
+.error{
+    width: 580px;
+    height: 30px;
+    background-color: red;
+    opacity: 0.4;
+    margin-top:15px;
+    margin-bottom:30px;
+    color: white;
+    padding:10px;
+    text-align: center;
+}
+.error > p{
+      font-family:"trebuchet ms" ;
+}
+
+
+
+.container-logo > div > h3 >span{
+    color:#335BFF;
+    font-weight: normal;
+    font-size: 18px;
+}
+.container-logo > div{
+         color:#335BFF;
+         padding-top: 5px;
+         font-size: 11px;
+}
+
+textarea{
+  width:100%;
+  height:60px;
+  border-style:solid;
+  border-color: ;
+}
+.container{
+  width: 100% ;
+  height:60px;
+  display:inline-block;
+  border-bottom-color:#335BFF;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+
+.container-logo{
+     float:left;
+     padding-top: 10px;
+     padding-left:20px;
+     text-align:center;
+}
+.container-menu{
+  float:right;
+  padding-top: 10px;
+  padding-right:20px;
+  text-align:center;
+}
+.container-menu > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.container-menu > ul  > li{
+     padding-left: 10px;
+     padding-right: 20px ;
+     padding-top: 10px;
+     text-decoration: none;
+}
+.container-menu > ul li a{
+     padding: 23px;
+    text-decoration: none;
+}
+
+.container-menu > ul li a:hover{
+     background-color:#3A57CD;
+     color: white;
+
+}
+.activo-menu{
+  background-color:#335BFF !important;
+  color: white !important;
+  padding:23px !important;
+}
+.page-center{
+     width:1000px;
+     margin:0 auto;
+     margin-top:120px;
+}
+.card-detail{
+    width:300px;
+    color: white;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height:100px;
+    text-align:center;
+    background-color:#3A57CD;
+    float: left;
+
+}
+.card-detail > span{
+    font-size: 18px;
+}
+.card-formulario  {
+    float: right;
+    width:600px;
+}
+.card-formulario >form{
+      display:flex;
+      padding-left:10px;
+      padding-right:10px;
+      flex-direction: column;
+      margin-bottom:30px;
+}
+
+.card-formulario >form > fieldset{
+      color:#335BFF;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right:20px;
+}
+
+input[type="file"]{
+    border: none;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+  width:101.5%;
+  height: 60px;
+  background-color:#335BFF;
+  border:none;
+  text-align: center;
+  color: white;
+}
+.first{
+     display: flex;
+     flex-direction: row;
+}
+ input[type="text"]{
+    width:100%;
+    height: 40px;
+    border: none;
+    border-color:#335BFF;
+    border-width: 1px;
+    border-style: solid ;
+    padding-left:10px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color:  black ;
+}
+.lista-items{
+     margin:0 auto;
+     margin-top:120px;
+     width:900px;
+}
